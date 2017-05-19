@@ -1,0 +1,20 @@
+#indice .units ul li.active:not(.disabled):not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled):not(.disabled), #indice .units ul li:focus:not(.disabled):not(.disabled) {
+    background: #f12ab1;
+}
+
+#indice .units ul li {
+    background: #fbd7ef;
+    border-radius: 0px;
+    min-height: 46px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid;
+}
+
+body {
+    background: url(https://thumbs.dreamstime.com/x/pink-unicorn-8642467.jpg);
+    background-repeat: repeat-y;
+}
+
+.content-wrapper.libro {
+    margin-left: 400px;
+}
