@@ -11,7 +11,7 @@
 }
 
 body {
-    background: descarga.jpg;
+    background: url ("./descarga.jpg");
     background-repeat: repeat-y;
 }
 
