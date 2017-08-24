@@ -1,1 +1,7 @@
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units ul li.active a {
+    background: red;
+}
 
+body {
+    background-color: #17c13a;
+}
