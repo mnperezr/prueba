@@ -2,3 +2,7 @@
 .btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
     background-color: #f114e2;
 }
+
+body {
+    background-color: #de24c1;
+}
