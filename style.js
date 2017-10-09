@@ -1,13 +1,12 @@
-
 (function (blink) {
 	'use strict';
 
-	var cem_jorgecalvo = function () {
+	var cemstyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	cem_jorgecalvo.prototype = {
+	cemstyle.prototype = {
 		bodyClassName: 'content_type_clase_classic',
 		extraPlugins: ['image2'],
 		ckEditorStyles: {
@@ -117,9 +116,9 @@
 		}
 	};
 
-	cem_jorgecalvo.prototype = _.extend({}, new blink.theme.styles.basic(), cem_jorgecalvo.prototype);
+	cemstyle.prototype = _.extend({}, new blink.theme.styles.basic(), cemstyle.prototype);
 
-	blink.theme.styles.classic = cem_jorgecalvo;
+	blink.theme.styles.classic = cemstyle;
 
 })( blink );
 
