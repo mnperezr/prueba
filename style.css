@@ -20,11 +20,11 @@
 		margin-bottom: 10px;
 	}
 
-	.is_app.content_type_clase_cemstyle {
+	.is_app.content_type_clase_cem_jorgecalvo {
 		padding-top: 0px;
 	}
 
-	.content_type_clase_cemstyle #actividad {
+	.content_type_clase_cem_jorgecalvo #actividad {
 		margin-bottom: 0px;
 		-webkit-transform: none;
 		-webkit-transform-style: flat;
@@ -38,8 +38,8 @@
 		position: relative;
 	}
 
-	.content_type_clase_cemstyle #actividad .content .header .title img,
-	.content_type_clase_cemstyle #actividad .content .header .chapter {
+	.content_type_clase_cem_jorgecalvo #actividad .content .header .title img,
+	.content_type_clase_cem_jorgecalvo #actividad .content .header .chapter {
 		display: none;
 	}
 
@@ -49,17 +49,17 @@
 		visibility: hidden;
 	}
 
-	.content_type_clase_cemstyle #actividad .content .header {
+	.content_type_clase_cem_jorgecalvo #actividad .content .header {
 		border: none;
 	}
 
-	.content_type_clase_cemstyle #actividad .content .header .title {
+	.content_type_clase_cem_jorgecalvo #actividad .content .header .title {
 		margin-top: -40px;
 		padding-top: 30px;
 		padding-bottom: 10px;
 	}
 
-	.content_type_clase_cemstyle #actividad .content .header .title h3 {
+	.content_type_clase_cem_jorgecalvo #actividad .content .header .title h3 {
 		font-family: 'Averia Serif Libre', Georgia, serif;
 		font-size: 6.2rem;
 		font-weight: normal;
@@ -71,12 +71,12 @@
 		margin-top: -30px;
 		margin-bottom: 50px;
 	}
-	.content_type_clase_cemstyle #actividad .content .header .title h3 span {
+	.content_type_clase_cem_jorgecalvo #actividad .content .header .title h3 span {
 		display: block;
 		font-size:2.8rem;
 	}
-	.content_type_clase_cemstyle #actividad .texto_curso,
-	.content_type_clase_cemstyle #actividad .slide_content_type_1 .pregunta .texto_curso {
+	.content_type_clase_cem_jorgecalvo #actividad .texto_curso,
+	.content_type_clase_cem_jorgecalvo #actividad .slide_content_type_1 .pregunta .texto_curso {
 		font-size: 1.6rem;
 	}
 
@@ -100,7 +100,7 @@
 	    padding-bottom: 100px;
 	}
 
-	.content_type_clase_cemstyle .slide_main input {
+	.content_type_clase_cem_jorgecalvo .slide_main input {
 		color: #555;
 		background-color: #fff;
 		background-image: none;
@@ -112,7 +112,7 @@
 		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 	}
 
-	.content_type_clase_cemstyle .slide_main input:focus {
+	.content_type_clase_cem_jorgecalvo .slide_main input:focus {
 		border-top-color: #85c939;
 		border-right-color: #85c939;
 		border-bottom-color: #85c939;
@@ -122,25 +122,25 @@
 		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
 	}
 
-	.content_type_clase_cemstyle .slide_main input[disabled],
-	.content_type_clase_cemstyle .slide_main input[readonly],
-	fieldset[disabled] .content_type_clase_cemstyle .slide_main input {
+	.content_type_clase_cem_jorgecalvo .slide_main input[disabled],
+	.content_type_clase_cem_jorgecalvo .slide_main input[readonly],
+	fieldset[disabled] .content_type_clase_cem_jorgecalvo .slide_main input {
 		cursor: not-allowed;
 		background-color: #eee;
 		opacity: 1;
 	}
 
-	.content_type_clase_cemstyle .slide_main input.respuesta_ok {
+	.content_type_clase_cem_jorgecalvo .slide_main input.respuesta_ok {
 		border-color: #57e900;
 		background: #D1F3BD;
 	}
 
-	.content_type_clase_cemstyle .slide_main input.respuesta_ko {
+	.content_type_clase_cem_jorgecalvo .slide_main input.respuesta_ko {
 		border-color: #FF3626;
 		background: #FFA49D;
 	}
 
-	.content_type_clase_cemstyle .slide_main input.solucion {
+	.content_type_clase_cem_jorgecalvo .slide_main input.solucion {
 		border-color: #00BDFF;
 		background: #B6ECFF;
 	}
@@ -273,7 +273,7 @@
 	}
 
 /* Navbar (Breadcums) */
-	.content_type_clase_cemstyle .publisher-navbar {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar {
 		position: fixed;
 		top: 44px;
 		background: #ffffff;
@@ -283,7 +283,7 @@
 		box-shadow: rgba(0, 0, 0, 0.3) 0px 0 9px;
 	}
 
-	.is_app.content_type_clase_cemstyle .publisher-navbar {
+	.is_app.content_type_clase_cem_jorgecalvo .publisher-navbar {
 		position: sticky;
 		top: 0px;
 	}
@@ -304,18 +304,18 @@
         display: none;
     }
 
-	.content_type_clase_cemstyle .publisher-navbar .navbar-content {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar .navbar-content {
 		max-width: 960px;
 		margin: 0 auto;
 		padding-left: 90px;
 		padding-right: 50px;
 	}
 
-	.content_type_clase_cemstyle .logo-publisher {
+	.content_type_clase_cem_jorgecalvo .logo-publisher {
 		display: block;
 		margin-left: -48px;
 	}
-	.content_type_clase_cemstyle .logo-publisher {
+	.content_type_clase_cem_jorgecalvo .logo-publisher {
 		content: " ";
 		background-image: url(logo-blink.png);
 		height: 36px;
@@ -328,7 +328,7 @@
 		background-size: contain;
 	}
 
-	.content_type_clase_cemstyle .slider-indicators {
+	.content_type_clase_cem_jorgecalvo .slider-indicators {
 		padding: 0;
 		display: inline-block;
 		text-align: left;
@@ -341,18 +341,18 @@
 	    color: #00599C;
 	}
 
-	.content_type_clase_cemstyle .publisher-navbar .dropdown,
-	.content_type_clase_cemstyle .publisher-navbar #top-navigator .slider-indicators {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar .dropdown,
+	.content_type_clase_cem_jorgecalvo .publisher-navbar #top-navigator .slider-indicators {
 		background: #FFCA04;
 	}
-	.content_type_clase_cemstyle .publisher-navbar .dropdown {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar .dropdown {
 		border-radius: 120px 0 0 120px;
 	}
-	.content_type_clase_cemstyle .publisher-navbar #top-navigator .slider-indicators {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar #top-navigator .slider-indicators {
 		border-radius: 0 120px 120px 0;
 	}
-	.content_type_clase_cemstyle .publisher-navbar .dropdown button,
-	.content_type_clase_cemstyle .publisher-navbar li {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar .dropdown button,
+	.content_type_clase_cem_jorgecalvo .publisher-navbar li {
 		border-radius: 5px;
 		border: none;
 		background-color: transparent;
@@ -366,7 +366,7 @@
 		cursor: pointer;
 	}
 
-	.content_type_clase_cemstyle .slider-indicators:after {
+	.content_type_clase_cem_jorgecalvo .slider-indicators:after {
 		content: '';
 		display: block;
 		clear: both;
@@ -375,7 +375,7 @@
 		height: 0;
 	}
 
-	.content_type_clase_cemstyle .slider-indicators li {
+	.content_type_clase_cem_jorgecalvo .slider-indicators li {
 		width: 35px;
 		height: 35px;
 		background-color: transparent;
@@ -386,8 +386,8 @@
 		float: left;
 	}
 
-	.content_type_clase_cemstyle .slider-indicators li:before,
-	.content_type_clase_cemstyle .slider-indicators li:after {
+	.content_type_clase_cem_jorgecalvo .slider-indicators li:before,
+	.content_type_clase_cem_jorgecalvo .slider-indicators li:after {
 		content: '';
 		display: block;
 		width: 1px;
@@ -397,25 +397,25 @@
 		left: 0;
 		top: 0;
 	}
-	.content_type_clase_cemstyle .slider-indicators li:after {
+	.content_type_clase_cem_jorgecalvo .slider-indicators li:after {
 		background: rgba(255,255,255,.2);
 		left: -1px;
 	}
 
-	.content_type_clase_cemstyle .slider-indicators li.active,
-	.content_type_clase_cemstyle .publisher-navbar li:hover {
+	.content_type_clase_cem_jorgecalvo .slider-indicators li.active,
+	.content_type_clase_cem_jorgecalvo .publisher-navbar li:hover {
 		background-color: transparent;
 		opacity: 1;
 	}
-	.content_type_clase_cemstyle .publisher-navbar #top-navigator,
-	.content_type_clase_cemstyle .publisher-navbar .dropdown {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar #top-navigator,
+	.content_type_clase_cem_jorgecalvo .publisher-navbar .dropdown {
 		float: left;
 		margin-top: 10px;
 		display: block;
 
 	}
 
-	.content_type_clase_cemstyle .publisher-navbar .dropdown button {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar .dropdown button {
 		width: auto;
 		padding: 0px 10px;
 	}
@@ -426,25 +426,25 @@
 		overflow-y: auto;
 	}
 
-	.content_type_clase_cemstyle .publisher-navbar .dropdown button {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar .dropdown button {
 		border: none;
 	}
 
-	.content_type_clase_cemstyle .publisher-navbar .dropdown button:focus {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar .dropdown button:focus {
 		outline: none;
 	}
 
-	.content_type_clase_cemstyle .publisher-navbar .dropdown li {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar .dropdown li {
 		display: list-item;
 		width: auto;
 	}
 
-	.content_type_clase_cemstyle .publisher-navbar .dropdown li a {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar .dropdown li a {
 		color: #0095DA;
 		font-weight: bold;
 	}
 
-	.content_type_clase_cemstyle .publisher-navbar .dropdown .caret {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar .dropdown .caret {
 		display: none;
 	}
 /**/
@@ -826,7 +826,7 @@
 		padding-left: 30px;
 	}
 
-	.content_type_clase_cemstyle #actividad .content .header .title h3 {
+	.content_type_clase_cem_jorgecalvo #actividad .content .header .title h3 {
 		margin-left: -30px;
 		padding-left: 20px;
 	}
@@ -837,10 +837,10 @@
 		padding-left: 30px;
 		padding-right: 30px;
 	}
-	.content_type_clase_cemstyle .publish {
+	.content_type_clase_cem_jorgecalvo .publish {
 		padding-left: 25px;
 	}
-	.content_type_clase_cemstyle .logo-publisher {
+	.content_type_clase_cem_jorgecalvo .logo-publisher {
 		margin-left: -20px;
 	}
 
@@ -862,7 +862,7 @@
     .bck-img.left, img[style~="float:left"] {
         max-width: 50%
     }
-	.content_type_clase_cemstyle .publisher-navbar {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar {
 		top: 88px;
 	}
 
@@ -900,11 +900,11 @@
     #actividad .carousel-inner .item-container {
 		padding: 40px 20px 90px;
 	}
-	.content_type_clase_cemstyle .publisher-navbar .navbar-content {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar .navbar-content {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-	.content_type_clase_cemstyle .publisher-navbar .logo-publisher:before {
+	.content_type_clase_cem_jorgecalvo .publisher-navbar .logo-publisher:before {
 		content: none;
 		display: none;
 
@@ -917,7 +917,7 @@
 		font-size: 2.4rem;
 		width: 60px;
 	}
-	.content_type_clase_cemstyle #actividad .content .header .title h3 {
+	.content_type_clase_cem_jorgecalvo #actividad .content .header .title h3 {
 		font-size: 5.0rem;
 		padding-right: 20px;
 		margin-bottom: 20px;
@@ -958,6 +958,6 @@ div.calculo table.marco * {
     border-top: 1px solid #0095DA !important;
 }
 
-.content_type_clase_cemstyle .slide_main input {
+.content_type_clase_cem_jorgecalvo .slide_main input {
     border: 1px solid #ccc !important;
 }
