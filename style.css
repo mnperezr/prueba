@@ -1,3 +1,6 @@
+.body_clase .navbar.libro .libro-left {
+    background: red !important;
+}
 
 /* Navbar */
 	.navbar-bottom {
