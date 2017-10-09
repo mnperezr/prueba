@@ -1,16 +1,16 @@
 (function (blink) {
 	'use strict';
 
-	var cemstyle = function () {
+	var cem_jorgecalvo = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	cemstyle.prototype = {
-		bodyClassName: 'content_type_clase_cemstyle',
+	cem_jorgecalvo.prototype = {
+		bodyClassName: 'content_type_clase_cem_jorgecalvo',
 		extraPlugins: ['image2'],
 		ckEditorStyles: {
-			name: 'cemstyle',
+			name: 'cem_jorgecalvo',
 			styles: [
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title1'} },
@@ -116,9 +116,9 @@
 		}
 	};
 
-	cemstyle.prototype = _.extend({}, new blink.theme.styles.basic(), cemstyle.prototype);
+	cem_jorgecalvo.prototype = _.extend({}, new blink.theme.styles.basic(), cem_jorgecalvo.prototype);
 
-	blink.theme.styles.cemstyle = cemstyle;
+	blink.theme.styles.cem_jorgecalvo = cem_jorgecalvo;
 
 })( blink );
 
@@ -145,9 +145,9 @@ $(document).ready(function () {
 	}
 
 	// BK-8433 cambiamos el logo de las slides por el del dominio
-	var src_logo = $('.content_type_clase_cemstyle').find('.logo_slide').attr('logo_dominio');
+	var src_logo = $('.content_type_clase_cem_jorgecalvo').find('.logo_slide').attr('logo_dominio');
 	if (typeof(src_logo) != 'undefined' && src_logo && src_logo != '' && src_logo.indexOf('gif1x1.gif') == -1) {
-		$('.content_type_clase_cemstyle').find('.logo-publisher').css('background-image', "url('"+src_logo+"')");
+		$('.content_type_clase_cem_jorgecalvo').find('.logo-publisher').css('background-image', "url('"+src_logo+"')");
 	}
 
 });
