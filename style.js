@@ -7,10 +7,10 @@
 		page = blink.currentPage;
 
 	cemstyle.prototype = {
-		bodyClassName: 'content_type_clase_classic',
+		bodyClassName: 'content_type_clase_cemstyle',
 		extraPlugins: ['image2'],
 		ckEditorStyles: {
-			name: 'classic',
+			name: 'cemstyle',
 			styles: [
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title1'} },
@@ -118,7 +118,7 @@
 
 	cemstyle.prototype = _.extend({}, new blink.theme.styles.basic(), cemstyle.prototype);
 
-	blink.theme.styles.classic = cemstyle;
+	blink.theme.styles.cemstyle = cemstyle;
 
 })( blink );
 
@@ -145,9 +145,9 @@ $(document).ready(function () {
 	}
 
 	// BK-8433 cambiamos el logo de las slides por el del dominio
-	var src_logo = $('.content_type_clase_classic').find('.logo_slide').attr('logo_dominio');
+	var src_logo = $('.content_type_clase_cemstyle').find('.logo_slide').attr('logo_dominio');
 	if (typeof(src_logo) != 'undefined' && src_logo && src_logo != '' && src_logo.indexOf('gif1x1.gif') == -1) {
-		$('.content_type_clase_classic').find('.logo-publisher').css('background-image', "url('"+src_logo+"')");
+		$('.content_type_clase_cemstyle').find('.logo-publisher').css('background-image', "url('"+src_logo+"')");
 	}
 
 });
