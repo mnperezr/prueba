@@ -1,4 +1,3 @@
-
 (function (blink) {
 	'use strict';
 
@@ -50,6 +49,16 @@
 				return $(this).html() + ' > ' + blink.courseInfo.unit;
 			})
 		},
+
+		addPageNumber: function() {
+			$('.js-slider-item').each(function(i,e) {
+				var idPage = $(e).attr('id');
+				var page = parseInt(idPage.replace("slider-item-", ""))+1;
+				$(e).find('.header').prepend('<div class="single-pagination"><div class="page">'+page+'</div></div>');
+			});
+		},
+
+
 		formatCarouselindicators: function () {
 			var $navbarBottom = $('.navbar-bottom'),
 				$carouselIndicators = $('.slider-indicators').find('li');
@@ -166,4 +175,3 @@ function poolReposition() {
 		}
 	});
 }
-
