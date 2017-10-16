@@ -35,7 +35,6 @@
 			this.addActivityTitle();
 			this.addPageNumber();
 			this.formatCarouselindicators();
-			this.addSlideNavigators();
 		},
 
 		removeFinalSlide: function () {
